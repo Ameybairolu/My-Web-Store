@@ -1,0 +1,194 @@
+/*This css file contains all the adjustments required to display all the contents of the pages in appropriate manner*/
+body{
+    width:100%;
+    height:100%;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    background-color:transparent;
+    color: #ededed;
+}
+
+.header{
+    background-color:#000;
+    color:#fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent; 
+}
+.inner-header{
+       width:80%;     
+       margin:auto;
+}
+.logo{
+     float: left;     
+     height: 50px;     
+     padding: 15px;     
+     font-size: 20px;     
+     font-weight: bold; 
+}
+.header-link{
+    float:right;     
+    font-size:14px;     
+    height: 50px;     
+    padding: 15px 15px;     
+    font-size:16px;     
+    font-weight: bold;
+}
+.content{
+    min-height: 50%;
+    margin-bottom: 3%;
+}
+.banner-image{
+    padding-bottom: 1%;         
+    text-align: center;     
+    color: #f8f8f8;     
+    background: url(../img/intro-bg_1.jpg) no-repeat center;     
+    background-size: cover;
+}
+.inner-banner-image{
+    padding-top: 12%;     
+    width:80%;     
+    margin:auto; 
+    text-align: center;
+}
+.banner_content{
+       position: relative;     
+       padding-top: 6%;     
+       padding-bottom: 6%;
+       margin-top: 3%;
+       margin-bottom: 4%;
+       overflow:hidden;      
+       background-color: rgba(0, 0, 0, 0.7);     
+       max-width: 60%; 
+}
+.button{
+    color: #fff;     
+    background-color: #c9302c;     
+    border-color: #ac2925;     
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);     
+    padding: 10px 16px;     
+    font-size: 18px;     
+    border-radius: 6px;
+}
+.container{
+     width:90%;     
+     margin:auto;     
+     overflow:hidden; 
+}
+.thumbnail{
+      display: block;     
+      max-width: 100%;     
+      height: auto; 
+}
+.caption{
+      color:#000;     
+      padding:0px 10px 10px;     
+      font-weight: bold;     
+      text-align: center;
+}
+
+footer{
+    padding: 10px 0; 
+    background-color: #101010; 
+    color:#9d9d9d; 
+    position: relative;
+    width: 100%; 
+    
+} 
+.nounderline{
+    text-decoration: none !important;
+}
+#panel_content{
+   position: relative; 
+   padding-top: 3%; 
+   padding-bottom: 3%;  
+   margin-bottom: 4.6%; 
+   max-width: 500px; 
+}
+
+.jumbotron_edit{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    position: relative; 
+   padding-top: 2%; 
+   padding-bottom: 2%; 
+   margin-top: 19%; 
+   margin-bottom: 19%; 
+   max-width: 600px; 
+}
+
+th,td {
+    text-align: center;
+    padding:15px;
+    height: 30px;
+}
+
+td {
+    border-bottom: 1px solid #a4a4a4;
+}
+th{
+    border-bottom: 2px solid #a4a4a4;
+}
+.remove_item_link{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(255,0,0);
+}
+
+#a_success{
+  color: blue;  
+}
+#panelnoborder{
+    border-color: #fff;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+
+}
+#orderhist_table{
+    margin-top:2%;
+}
+#orderhist_head{
+    margin-top:13%;
+}
+#panel_content_login{
+   position: relative; 
+   padding-top: 3%; 
+   padding-bottom: 3%;  
+   margin-bottom: 13.6%; 
+   max-width: 500px; 
+}
+@media(max-width:320px){
+    #div{
+        padding-top: 50%;
+    }
+}
+@media(max-width:481px){
+    #div{
+        padding-top: 40%;
+    }
+}
+@media(max-width:641px){
+    #div{
+        padding-top: 30%;
+    }
+}
+@media(max-width:1000px){
+    #div{
+        padding-top: 15%;
+    }
+}
+@media(min-width:1001px){
+     #div{
+        padding-top: 8%;
+    }
+}
